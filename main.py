@@ -3,7 +3,7 @@ from PIL import ImageTk, Image  # pip install Pillow
 import mysql.connector
 
 app = Tk()
-app.title("Welcome")
+app.title("Upnormal Map")
 img =Image.open('logo2.jpg')
 bg = ImageTk.PhotoImage(img)
 
