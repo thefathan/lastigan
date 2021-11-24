@@ -1,0 +1,56 @@
+h1 {
+    color: #331a00;
+    margin-left: 250px;
+}
+
+
+body {
+    background-image: url('logo2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* iki nek trisi ditulis "Terisi", nek kosong ditulis "------" wae */
+
+.StatusMeja1:before {
+    position: relative;
+    left: 190px;
+    top: 215px;
+    content: "Terisi";
+}
+
+.StatusMeja2:before {
+    position: relative;
+    left: 320px;
+    top: 215px;
+    content: "Terisi";
+}
+
+.StatusMeja3:before {
+    position: relative;
+    left: 445px;
+    top: 215px;
+    content: "Terisi";
+}
+
+.StatusMeja4:before {
+    position: relative;
+    left: 75px;
+    top: 340px;
+    content: "Terisi";
+}
+
+.StatusMeja5:before {
+    position: relative;
+    left: 205px;
+    top: 340px;
+    content: "------";
+}
+
+.StatusMeja6:before {
+    position: relative;
+    left: 330px;
+    top: 340px;
+    content: "Terisi";
+}
+
